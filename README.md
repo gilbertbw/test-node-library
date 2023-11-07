@@ -7,9 +7,9 @@ Includes testing, coverage, coveralls.io, linting, TSDoc and auto creation of a 
 If you are creating a new project from this template, instructions are [here](./INSTRUCTIONS.md).
 
 [![Typescript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF)](https://www.typescriptlang.org/)
-[![Node.js CI](https://github.com/x-ware-ltd/template-typescript-node-library/actions/workflows/linux-ci.yml/badge.svg)](https://github.com/x-ware-ltd/template-typescript-node-library/actions/workflows/linux-ci.yml)
-[![Node.js CI](https://github.com/x-ware-ltd/template-typescript-node-library/actions/workflows/windows-ci.yml/badge.svg)](https://github.com/x-ware-ltd/template-typescript-node-library/actions/workflows/windows-ci.yml)
-[![Coverage Status](https://coveralls.io/repos/github/x-ware-ltd/template-typescript-node-library/badge.svg?branch=main)](https://coveralls.io/github/x-ware-ltd/template-typescript-node-library?branch=main)
+[![Node.js CI](https://github.com/gilbertbw/test-node-library/actions/workflows/linux-ci.yml/badge.svg)](https://github.com/gilbertbw/test-node-library/actions/workflows/linux-ci.yml)
+[![Node.js CI](https://github.com/gilbertbw/test-node-library/actions/workflows/windows-ci.yml/badge.svg)](https://github.com/gilbertbw/test-node-library/actions/workflows/windows-ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/gilbertbw/test-node-library/badge.svg?branch=main)](https://coveralls.io/github/gilbertbw/test-node-library?branch=main)
 
 ## Install
 
@@ -21,7 +21,7 @@ This is a github hosted package so you need to add an entry to your `.npmrc` fil
 Then:
 
 ```console
-> npm install @x-ware-ltd/template-typescript-node-library
+> npm install @gilbertbw/test-node-library
 ```
 
 If the package is `private` you need to authenticate to github by getting a Personal Access Token from github with `read:packages` permissions. Either login for the session, which will request your github username, and password (use your Personal Access Token):
@@ -48,14 +48,14 @@ If you are running CI/CD on your package you will need to provide credentials fo
 ## Usage
 ESM:
 ```js
-import {add} from '@x-ware-ltd/template-typescript-node-library';
+import {add} from '@gilbertbw/test-node-library';
 
 console.log(add(3, 5)); // 8
 ```
 
 CommonJS:
 ```js
-var lib = require('@x-ware-ltd/template-typescript-node-library');
+var lib = require('@gilbertbw/test-node-library');
 
 console.log(lib.add(3, -1)); // 2
 ```

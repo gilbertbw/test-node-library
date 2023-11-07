@@ -1,7 +1,7 @@
 {
-  "name": "@x-ware-ltd/template-typescript-node-library",
-  "version": "0.0.10",
-  "description": "template node package for Typescript library development",
+  "name": "@gilbertbw/test-node-library",
+  "version": "0.0.1",
+  "description": "A test node package",
   "type": "module",
   "main": "./lib/cjs/index.js",
   "types": "./lib/cjs/types/index.d.ts",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/x-ware-ltd/template-typescript-node-library.git"
+    "url": "git+https://github.com/gilbertbw/test-node-library.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -41,15 +41,16 @@
     "clean": "node ./scripts/rm-rf.js ./lib ./coverage"
   },
   "keywords": [
-    "boilerplate",
-    "typescript"
+    "typescript",
+    "test"
   ],
-  "author": "X-Ware Limited",
-  "license": "ISC",
+  "author": "Gilbert Bishop-White",
+  "license": "MIT",
   "devDependencies": {
     "@shopify/eslint-plugin": "^43.0.0",
     "@types/chai": "^4.3.9",
     "@types/mocha": "^10.0.3",
+    "@types/node": "^20.8.10",
     "c8": "^8.0.1",
     "chai": "^4.3.10",
     "cspell": "^7.3.8",
