@@ -1,6 +1,6 @@
 {
   "name": "@gilbertbw/test-node-library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A test node package",
   "type": "module",
   "main": "./lib/cjs/index.js",
